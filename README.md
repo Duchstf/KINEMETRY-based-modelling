@@ -13,7 +13,7 @@ This document is intended for people who want to use my codes to get the properl
 
 **NOTE:** At this point I don't know how to use Shell to develop a User Interface (UI). Thus, the following instructions will guide you through each manual step to produce the figures without using a UI. 
 
-## Instructions for absolute beginners
+## Instructions
 ###### I Assumed that the folders in this resporitory has already been downloaded to your computer, and that you're working on MacOS.
 1) Open IDL (since IDL might have multiple versions on the computers, the easiest way to directly open the newest version is to type "idlde" to XQuartz or Terminal)
 
