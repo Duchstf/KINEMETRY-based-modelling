@@ -32,4 +32,4 @@ This document is intended for people who want to use my codes to get the properl
         - Remember to direct to the right directory that contains the fits file (Which is usually saved in the same folder with the IDL codes)
         - Click the "Play" button and save the beautiful the output figures!! (You should be able to look at the codes to modify the graphs' titles and labels)
 
-![ScreenShot](SpyderExample.png)
+
