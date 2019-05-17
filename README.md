@@ -30,6 +30,4 @@ This document is intended for people who want to use my codes to get the properl
     - Note: I don't explicitly save the output figures in the codes. However, you can just save them by a single right click on the image. The reason for this is that I want to allow the users to have some freedom to modify the codes before saving the figures of their choice. (You have options to modigy the units and labels of the graphs from my defaults)
     - **Example in Spyder (Anaconda Environment):** 
         - Remember to direct to the right directory that contains the fits file (Which is usually saved in the same folder with the IDL codes)
-        - Click the "Play" button and save the beautiful the output figures!! (You should be able to look at the codes to modify the graphs' titles and labels)
-
-
+        - Click the "Play" button and save the beautiful the output figures!!
