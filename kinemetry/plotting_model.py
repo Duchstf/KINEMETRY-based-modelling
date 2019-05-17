@@ -59,10 +59,10 @@ def main(name):
     title1 = "Original Velocity Map of " + name
     plt.title(title1)
     #X axis
-    plt.xlabel("Distance From Nucleus (kpc)")
+    plt.xlabel("Distance From Nucleus (arcsec)")
     plt.xticks(xtickPos,xtickVal)
     #Y axis
-    plt.ylabel("Distance From Nucleus (kpc)")
+    plt.ylabel("Distance From Nucleus (arcsec)")
     plt.yticks(ytickPos,ytickVal)
     h.show()
     
@@ -83,10 +83,10 @@ def main(name):
     plt.title(title2)
     
     #X axis
-    plt.xlabel("Distance From Nucleus (kpc)")
+    plt.xlabel("Distance From Nucleus (arcsec)")
     plt.xticks(xtickPos,xtickVal)
     #Y axis
-    plt.ylabel("Distance From Nucleus (kpc)")
+    plt.ylabel("Distance From Nucleus (arcsec)")
     plt.yticks(ytickPos,ytickVal)
     
     #Plot the best fitted rings 
@@ -106,10 +106,10 @@ def main(name):
     sns.heatmap(residual,cmap="RdBu_r", cbar_kws={'label':  r'Velocity ($km \cdot s^{-1}$)'},vmin = -100, vmax = 100)
     plt.title("Residual between Original Velocity and generated Model")
     #X axis
-    plt.xlabel("Distance From Nucleus (kpc)")
+    plt.xlabel("Distance From Nucleus (arcsec)")
     plt.xticks(xtickPos,xtickVal)
     #Y axis
-    plt.ylabel("Distance From Nucleus (kpc)")
+    plt.ylabel("Distance From Nucleus (arcsec)")
     plt.yticks(ytickPos,ytickVal)
     g.show()
     
@@ -120,10 +120,10 @@ def main(name):
     sns.heatmap(signalNoise,cmap="Reds", cbar_kws={'label': 'Ratio'},vmin = 0, vmax = 2, annot = True)
     plt.title("Singal to Noise on each pixel")
     #X axis
-    plt.xlabel("Distance From Nucleus (kpc)")
+    plt.xlabel("Distance From Nucleus (arcsec)")
     plt.xticks(xtickPos,xtickVal)
     #Y axis
-    plt.ylabel("Distance From Nucleus (kpc)")
+    plt.ylabel("Distance From Nucleus (arcsec)")
     plt.yticks(ytickPos,ytickVal)
     g.show()
 
