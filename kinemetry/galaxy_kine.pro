@@ -1,4 +1,5 @@
 PRO galaxy_model_kine, galaxy
+  ;Author: Duc Hoang, Rhodes College
   ;Parameter: - name of the xdr file in string
   ;
   ;Action: Fit a model in KINEMETRY and write the returned values in a fits file (Specific details about returned values are in KINEMERTY's documentation)
